@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common -->
+    <string name="common_duration_hours_minutes">%1$dω %2$02dλ</string>
+    <string name="common_duration_minutes">%1$dλ</string>
+    <string name="common_undo">Αναίρεση</string>
+    <string name="common_cancel">Άκυρο</string>
+    <string name="common_close">Κλείσιμο</string>
+
+    <!-- Splash -->
+    <string-array name="splash_taglines_fun">
+        <item>Καλώς ήρθες στο κάτεργο</item>
+        <item>Άλλη μια μέρα στη γαλέρα</item>
+        <item>Το QR σου, οι αλυσίδες σου</item>
+        <item>Κουπί τώρα, γκρίνια μετά</item>
+        <item>Καταδικασμένος: 9 έως ισόβια</item>
+        <item>Χτύπα κάρτα, άσε την ελπίδα</item>
+        <item>Από τις 9 ως τη… σύνταξη</item>
+    </string-array>
+    <string name="splash_tagline_serious">Καταγραφή βάρδιας</string>
+
+    <!-- Home -->
+    <string name="home_history_cd">Ιστορικό</string>
+    <string name="home_settings_cd">Ρυθμίσεις</string>
+    <string name="home_add_qr_cd">Σκανάρισμα του QR της κάρτας εργασίας</string>
+    <string name="home_add_qr_title">Σκάναρε την κάρτα σου</string>
+    <string name="home_add_qr_subtitle_fun">Χωρίς QR δεν μπαίνεις στη γαλέρα. Πάτα το +.</string>
+    <string name="home_add_qr_subtitle_serious">Πάτα το + για να σκανάρεις το QR της ψηφιακής κάρτας εργασίας.</string>
+    <string name="home_qr_cd">QR κάρτας εργασίας. Ανοίγει σε πλήρη οθόνη και χτυπάει κάρτα είσοδο ή έξοδο.</string>
+    <string name="home_idle_hint_fun">Πάτα το QR, χτύπα κάρτα και πιάσε κουπί</string>
+    <string name="home_idle_hint_serious">Πάτα το QR για να χτυπήσεις κάρτα</string>
+    <string name="home_timer_ends_at">Λήγει στις %1$s</string>
+    <string name="home_timer_overtime_label">Υπερωρία</string>
+    <string name="home_mood_just_started">Φρέσκο κρέας στα κουπιά</string>
+    <string name="home_mood_warming_up">Κουπί. Απλά κουπί.</string>
+    <string name="home_mood_halfway">Μισή γαλέρα πέρασε</string>
+    <string name="home_mood_home_stretch">Φαίνεται στεριά</string>
+    <string name="home_mood_almost_free">Οι αλυσίδες χαλαρώνουν…</string>
+    <string name="home_mood_overtime">Ο εργοδότης σε ευχαριστεί. Δεν θα σε πληρώσει.</string>
+    <string name="home_mood_serious">Βάρδια σε εξέλιξη</string>
+    <string name="home_mood_overtime_serious">Πέρα από τον προγραμματισμένο χρόνο</string>
+    <plurals name="home_totals_galleys">
+        <item quantity="one">%d κάτεργο</item>
+        <item quantity="other">%d κάτεργα</item>
+    </plurals>
+    <plurals name="home_totals_shifts">
+        <item quantity="one">%d βάρδια</item>
+        <item quantity="other">%d βάρδιες</item>
+    </plurals>
+    <string name="home_totals_overtime_fun">%1$s δωρεάν υπερωρία</string>
+    <string name="home_totals_overtime_serious">%1$s υπερωρία</string>
+    <string name="home_shift_started_fun">Χτύπησες κάρτα. Πιάσε κουπί!</string>
+    <string name="home_shift_started_serious">Η βάρδια ξεκίνησε</string>
+    <string name="home_shift_ended_fun">Έξω μετά από %1$s. Ελευθερία (μέχρι αύριο)!</string>
+    <string name="home_shift_ended_serious">Η βάρδια έληξε μετά από %1$s</string>
+    <string name="home_undo_done">Αναιρέθηκε</string>
+    <string name="home_qr_close_hint">Πάτα οπουδήποτε για κλείσιμο</string>
+    <string name="home_freedom_title">ΕΛΕΥΘΕΡΙΑ!</string>
+    <string name="home_freedom_subtitle">Τέλος βάρδιας. Τρέξε πριν σε δουν.</string>
+    <string name="home_freedom_serious">Ο χρόνος βάρδιας ολοκληρώθηκε</string>
+
+    <!-- Scanner -->
+    <string name="scanner_hint">Στόχευσε το QR με την κάμερα</string>
+    <string name="scanner_permission_title">Χρειάζεται η κάμερα</string>
+    <string name="scanner_permission_body">Για να σκανάρεις το QR χρειάζεται η κάμερα. Μόνο κοιτάει, δεν κρατάει τίποτα.</string>
+    <string name="scanner_permission_grant">Επίτρεψε την κάμερα</string>
+    <string name="scanner_permission_settings">Άνοιγμα ρυθμίσεων</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ρυθμίσεις</string>
+    <string name="settings_section_shift">Βάρδια</string>
+    <string name="settings_duration_label">Διάρκεια βάρδιας</string>
+    <string name="settings_duration_decrease_cd">Μείωση κατά 15 λεπτά</string>
+    <string name="settings_duration_increase_cd">Αύξηση κατά 15 λεπτά</string>
+    <string name="settings_reminders_label">Υπενθυμίσεις πριν τη λήξη</string>
+    <string name="settings_reminders_empty">Μόνο όταν τελειώσει ο χρόνος</string>
+    <string name="settings_reminder_remove_cd">Αφαίρεση υπενθύμισης %1$s</string>
+    <string name="settings_reminder_add">Προσθήκη</string>
+    <string name="settings_duration_next_shift">Η νέα διάρκεια βάρδιας ισχύει από την επόμενη βάρδια.</string>
+    <string name="settings_exact_alarms_body">Οι υπενθυμίσεις μπορεί να αργήσουν λίγα λεπτά.</string>
+    <string name="settings_exact_alarms_allow">Επίτρεψε ακριβείς υπενθυμίσεις</string>
+    <string name="settings_background_error">Δεν ήταν δυνατή η χρήση της φωτογραφίας</string>
+    <string name="settings_section_appearance">Εμφάνιση</string>
+    <string name="settings_theme_label">Θέμα</string>
+    <string name="settings_theme_system">Σύστημα</string>
+    <string name="settings_theme_light">Φωτεινό</string>
+    <string name="settings_theme_dark">Σκοτεινό</string>
+    <string name="settings_background_pick">Επιλογή φωτογραφίας</string>
+    <string name="settings_background_reset">Επαναφορά</string>
+    <string name="settings_language_label">Γλώσσα</string>
+    <string name="settings_language_system">Σύστημα</string>
+    <string name="settings_section_experience">Εμπειρία</string>
+    <string name="settings_haptics_label">Δόνηση</string>
+    <string name="settings_serious_label">Σοβαρό mode</string>
+    <string name="settings_serious_description">Χωρίς πλάκα, μόνο ο χρόνος</string>
+    <string name="settings_section_qr">Κάρτα εργασίας</string>
+    <string name="settings_qr_change">Σκανάρισμα νέου QR</string>
+    <string name="settings_qr_delete">Διαγραφή QR</string>
+    <string name="settings_qr_delete_title">Διαγραφή του QR;</string>
+    <string name="settings_qr_delete_body">Θα χρειαστεί να το σκανάρεις ξανά για να χτυπήσεις κάρτα.</string>
+    <string name="settings_qr_delete_confirm">Διαγραφή</string>
+
+    <!-- History -->
+    <string name="history_title">Ιστορικό</string>
+    <string name="history_back_cd">Πίσω</string>
+    <string name="history_previous_month_cd">Προηγούμενος μήνας</string>
+    <string name="history_next_month_cd">Επόμενος μήνας</string>
+    <string name="history_stat_shifts">Βάρδιες</string>
+    <string name="history_stat_hours">Δουλειά</string>
+    <string name="history_stat_overtime">Υπερωρία</string>
+    <string name="history_day_empty_fun">Καμία γαλέρα εκείνη τη μέρα. Τυχερέ.</string>
+    <string name="history_day_empty_serious">Καμία βάρδια εκείνη τη μέρα</string>
+    <string name="history_select_day">Πάτα μια μέρα για να δεις τις βάρδιες</string>
+    <string name="history_shift_overtime">+%1$s υπερωρία</string>
+    <string name="history_shift_deleted">Η βάρδια διαγράφηκε</string>
+    <string name="history_delete_shift">Διαγραφή</string>
+    <string name="history_shift_early_fun">Κοπάνα %1$s</string>
+    <string name="history_shift_early_serious">%1$s νωρίτερα</string>
+    <plurals name="history_lifetime_galleys">
+        <item quantity="one">%d κάτεργο συνολικά</item>
+        <item quantity="other">%d κάτεργα συνολικά</item>
+    </plurals>
+    <plurals name="history_lifetime_shifts">
+        <item quantity="one">%d βάρδια συνολικά</item>
+        <item quantity="other">%d βάρδιες συνολικά</item>
+    </plurals>
+
+    <!-- Quick QR -->
+    <string name="quick_qr_label">QR κάρτας</string>
+    <string name="quick_qr_long_label">Χτύπα κάρτα με το QR</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_shift">Τρέχουσα βάρδια</string>
+    <string name="notification_channel_shift_description">Ο ζωντανός χρόνος της τρέχουσας βάρδιας</string>
+    <string name="notification_channel_reminders">Υπενθυμίσεις βάρδιας</string>
+    <string name="notification_channel_reminders_description">Υπενθυμίσεις πριν και στη λήξη της βάρδιας</string>
+    <string name="notification_running_title_fun">Κουπί μέχρι τις %1$s</string>
+    <string name="notification_running_title_serious">Βάρδια μέχρι τις %1$s</string>
+    <string name="notification_running_text">Ξεκίνησε στις %1$s</string>
+    <string name="notification_overtime_title_fun">Υπερωρία. Τζάμπα, προφανώς.</string>
+    <string name="notification_overtime_title_serious">Υπερωρία</string>
+    <string name="notification_reminder_title_fun">Ακόμα %1$s. Κράτα γερά!</string>
+    <string name="notification_reminder_title_serious">Απομένουν %1$s στη βάρδια</string>
+    <string name="notification_end_title_fun">ΕΛΕΥΘΕΡΙΑ! Χτύπα κάρτα!</string>
+    <string name="notification_end_text_fun">Άνοιξε το QR στην έξοδο.</string>
+    <string name="notification_end_title_serious">Ο χρόνος βάρδιας ολοκληρώθηκε</string>
+    <string name="notification_forgot_title_fun">%1$s δωρεάν δουλειά. Χτύπα κάρτα!</string>
+    <string name="notification_forgot_title_serious">Μην ξεχάσεις να χτυπήσεις έξοδο</string>
+    <string name="notification_end_text_serious">Μην ξεχάσεις να χτυπήσεις κάρτα.</string>
+</resources>

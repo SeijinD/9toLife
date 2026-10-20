@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">9toLife</string>
+
+    <!-- Common -->
+    <string name="common_duration_hours_minutes">%1$dh %2$02dm</string>
+    <string name="common_duration_minutes">%1$dm</string>
+    <string name="common_undo">Undo</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_close">Close</string>
+
+    <!-- Splash -->
+    <string-array name="splash_taglines_fun">
+        <item>Welcome to the galley</item>
+        <item>Another day, another oar</item>
+        <item>Your QR, your chains</item>
+        <item>Row now, complain later</item>
+        <item>Sentenced: 9 to life</item>
+        <item>Clock in. Abandon hope.</item>
+        <item>9 to 5. Then 5 to 9.</item>
+    </string-array>
+    <string name="splash_tagline_serious">Shift tracker</string>
+
+    <!-- Home -->
+    <string name="home_history_cd">History</string>
+    <string name="home_settings_cd">Settings</string>
+    <string name="home_add_qr_cd">Scan your work card QR</string>
+    <string name="home_add_qr_title">Scan your work card</string>
+    <string name="home_add_qr_subtitle_fun">No QR, no galley. Tap + to get on board.</string>
+    <string name="home_add_qr_subtitle_serious">Tap + to scan the QR of your digital work card.</string>
+    <string name="home_qr_cd">Work card QR. Opens full screen and clocks you in or out.</string>
+    <string name="home_idle_hint_fun">Tap the QR to clock in and grab an oar</string>
+    <string name="home_idle_hint_serious">Tap the QR to clock in</string>
+    <string name="home_timer_ends_at">Ends at %1$s</string>
+    <string name="home_timer_overtime_value" translatable="false">+%1$s</string>
+    <string name="home_totals_line" translatable="false">%1$s · %2$s</string>
+    <string name="home_timer_overtime_label">Overtime</string>
+    <string name="home_mood_just_started">Fresh meat on the oars</string>
+    <string name="home_mood_warming_up">Row. Just row.</string>
+    <string name="home_mood_halfway">Half the galley is behind you</string>
+    <string name="home_mood_home_stretch">Land on the horizon</string>
+    <string name="home_mood_almost_free">The chains are loosening…</string>
+    <string name="home_mood_overtime">The boss thanks you. He won\'t pay you.</string>
+    <string name="home_mood_serious">Shift in progress</string>
+    <string name="home_mood_overtime_serious">Past the planned time</string>
+    <plurals name="home_totals_galleys">
+        <item quantity="one">%d galley rowed</item>
+        <item quantity="other">%d galleys rowed</item>
+    </plurals>
+    <plurals name="home_totals_shifts">
+        <item quantity="one">%d shift</item>
+        <item quantity="other">%d shifts</item>
+    </plurals>
+    <string name="home_totals_overtime_fun">%1$s of free overtime</string>
+    <string name="home_totals_overtime_serious">%1$s overtime</string>
+    <string name="home_shift_started_fun">Clocked in. Grab an oar!</string>
+    <string name="home_shift_started_serious">Shift started</string>
+    <string name="home_shift_ended_fun">Out after %1$s. Freedom (until tomorrow)!</string>
+    <string name="home_shift_ended_serious">Shift ended after %1$s</string>
+    <string name="home_undo_done">Undone</string>
+    <string name="home_qr_close_hint">Tap anywhere to close</string>
+    <string name="home_freedom_title">FREEDOM!</string>
+    <string name="home_freedom_subtitle">Shift\'s over. Run before they see you.</string>
+    <string name="home_freedom_serious">Shift time completed</string>
+
+    <!-- Scanner -->
+    <string name="scanner_hint">Point the camera at the QR</string>
+    <string name="scanner_permission_title">Camera needed</string>
+    <string name="scanner_permission_body">To scan your QR the app needs the camera. It only looks, it keeps nothing.</string>
+    <string name="scanner_permission_grant">Allow camera</string>
+    <string name="scanner_permission_settings">Open settings</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_shift">Shift</string>
+    <string name="settings_duration_label">Shift length</string>
+    <string name="settings_duration_decrease_cd">Decrease by 15 minutes</string>
+    <string name="settings_duration_increase_cd">Increase by 15 minutes</string>
+    <string name="settings_reminders_label">Reminders before the end</string>
+    <string name="settings_reminders_empty">Only when the time is up</string>
+    <string name="settings_reminder_remove_cd">Remove the %1$s reminder</string>
+    <string name="settings_reminder_add">Add</string>
+    <string name="settings_duration_next_shift">A new shift duration applies from the next shift.</string>
+    <string name="settings_exact_alarms_body">Reminders may arrive a few minutes late.</string>
+    <string name="settings_exact_alarms_allow">Allow exact reminders</string>
+    <string name="settings_background_error">Could not use that photo</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_theme_label">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_background_pick">Choose photo</string>
+    <string name="settings_background_reset">Reset</string>
+    <string name="settings_language_label">Language</string>
+    <string name="settings_language_system">System</string>
+    <string name="settings_language_greek" translatable="false">Ελληνικά</string>
+    <string name="settings_language_english" translatable="false">English</string>
+    <string name="settings_section_experience">Experience</string>
+    <string name="settings_haptics_label">Haptics</string>
+    <string name="settings_serious_label">Serious mode</string>
+    <string name="settings_serious_description">No jokes, just the timer</string>
+    <string name="settings_section_qr">Work card</string>
+    <string name="settings_qr_change">Scan a new QR</string>
+    <string name="settings_qr_delete">Delete QR</string>
+    <string name="settings_qr_delete_title">Delete the QR?</string>
+    <string name="settings_qr_delete_body">You will need to scan it again to clock in.</string>
+    <string name="settings_qr_delete_confirm">Delete</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_back_cd">Back</string>
+    <string name="history_previous_month_cd">Previous month</string>
+    <string name="history_next_month_cd">Next month</string>
+    <string name="history_stat_shifts">Shifts</string>
+    <string name="history_stat_hours">Worked</string>
+    <string name="history_stat_overtime">Overtime</string>
+    <string name="history_day_empty_fun">No galley that day. Lucky you.</string>
+    <string name="history_day_empty_serious">No shifts that day</string>
+    <string name="history_select_day">Tap a day to see its shifts</string>
+    <string name="history_shift_time_range" translatable="false">%1$s - %2$s</string>
+    <string name="history_shift_overtime">+%1$s overtime</string>
+    <string name="history_shift_deleted">Shift deleted</string>
+    <string name="history_delete_shift">Delete</string>
+    <string name="history_shift_early_fun">Sneaked out %1$s</string>
+    <string name="history_shift_early_serious">%1$s early</string>
+    <plurals name="history_lifetime_galleys">
+        <item quantity="one">%d galley in total</item>
+        <item quantity="other">%d galleys in total</item>
+    </plurals>
+    <plurals name="history_lifetime_shifts">
+        <item quantity="one">%d shift in total</item>
+        <item quantity="other">%d shifts in total</item>
+    </plurals>
+
+    <!-- Quick QR -->
+    <string name="quick_qr_label">Card QR</string>
+    <string name="quick_qr_long_label">Clock in/out with QR</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_shift">Running shift</string>
+    <string name="notification_channel_shift_description">The live timer of the current shift</string>
+    <string name="notification_channel_reminders">Shift reminders</string>
+    <string name="notification_channel_reminders_description">Reminders before and at the end of the shift</string>
+    <string name="notification_running_title_fun">Rowing until %1$s</string>
+    <string name="notification_running_title_serious">Shift until %1$s</string>
+    <string name="notification_running_text">Started at %1$s</string>
+    <string name="notification_overtime_title_fun">Overtime. For free, obviously.</string>
+    <string name="notification_overtime_title_serious">Overtime</string>
+    <string name="notification_reminder_title_fun">%1$s left. Hold on!</string>
+    <string name="notification_reminder_title_serious">%1$s left in your shift</string>
+    <string name="notification_end_title_fun">FREEDOM! Clock out!</string>
+    <string name="notification_end_text_fun">Open the QR on your way out.</string>
+    <string name="notification_end_title_serious">Shift time completed</string>
+    <string name="notification_forgot_title_fun">%1$s of free work. Clock out!</string>
+    <string name="notification_forgot_title_serious">Don\'t forget to clock out</string>
+    <string name="notification_end_text_serious">Don\'t forget to clock out.</string>
+</resources>

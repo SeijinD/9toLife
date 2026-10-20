@@ -1,0 +1,10 @@
+TEAM_ID=
+
+PRODUCT_NAME=NineToLife
+PRODUCT_BUNDLE_IDENTIFIER=com.seijind.ninetolife.NineToLife$(TEAM_ID)
+INFOPLIST_KEY_CFBundleDisplayName=9toLife
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
+
+#include? "Local.xcconfig"

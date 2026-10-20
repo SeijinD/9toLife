@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ball and chain whose ball is a clock. Sized for the adaptive icon and the splash safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M39,43.5a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0Z"
+        android:strokeWidth="3"
+        android:strokeColor="#E9E4DA" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M32.5,37a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0Z"
+        android:strokeWidth="3"
+        android:strokeColor="#E9E4DA" />
+    <path
+        android:fillColor="#F2B33D"
+        android:pathData="M41,60a19,19 0,1 1,38 0a19,19 0,1 1,-38 0Z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M60,60L60,48.5M60,60L68,64.5"
+        android:strokeWidth="4"
+        android:strokeColor="#14213D"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#14213D"
+        android:pathData="M57.5,60a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0Z" />
+</vector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_qr"
+        android:shortcutId="open_qr"
+        android:shortcutLongLabel="@string/quick_qr_long_label"
+        android:shortcutShortLabel="@string/quick_qr_label">
+        <intent
+            android:action="com.seijind.ninetolife.action.OPEN_QR"
+            android:targetClass="com.seijind.ninetolife.MainActivity"
+            android:targetPackage="com.seijind.ninetolife" />
+    </shortcut>
+</shortcuts>
