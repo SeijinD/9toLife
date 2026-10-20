@@ -16,6 +16,13 @@ Kotlin Multiplatform: shared logic, native UI on each platform (Jetpack Compose 
 - **History**: month calendar, monthly stats, overtime and early leave ("Κοπάνα") per shift, swipe to delete with undo.
 - **Settings**: shift duration, reminders, theme, language (Greek / English), haptics, background photo, and a serious mode that drops the jokes.
 
+## Screenshots
+
+| | Home | History | Settings | Outside the app | Quick QR |
+|---|---|---|---|---|---|
+| **Android** | <img src="docs/screenshots/android/home.png" width="160" alt="Android home"> | <img src="docs/screenshots/android/history.png" width="160" alt="Android history"> | <img src="docs/screenshots/android/settings.png" width="160" alt="Android settings"> | <img src="docs/screenshots/android/notification.jpg" width="160" alt="Android shift notification"> | <img src="docs/screenshots/android/quick-action.jpg" width="160" alt="Android launcher shortcut"> |
+| **iOS** | <img src="docs/screenshots/ios/home.png" width="160" alt="iOS home"> | <img src="docs/screenshots/ios/history.png" width="160" alt="iOS history"> | <img src="docs/screenshots/ios/settings.png" width="160" alt="iOS settings"> | <img src="docs/screenshots/ios/live-activity.jpg" width="160" alt="iOS Live Activity"> | <img src="docs/screenshots/ios/quick-action.jpg" width="160" alt="iOS Home Screen quick action"> |
+
 ## Project structure
 
 | Module | What lives there |
